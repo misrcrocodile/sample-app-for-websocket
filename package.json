@@ -1,0 +1,33 @@
+{
+  "name": "remoteWebsocketServer",
+  "version": "1.0.0",
+  "description": "WebSocketServer for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.17.x",
+    "yarn": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Links2004/arduinoWebSockets"
+  },
+  "keywords": [
+    "esp8266",
+    "websocket",
+    "arduino"
+  ],
+  "author": "Markus Sattler",
+  "license": "LGPLv2",
+  "bugs": {
+    "url": "https://github.com/Links2004/arduinoWebSockets/issues"
+  },
+  "homepage": "https://github.com/Links2004/arduinoWebSockets",
+  "dependencies": {
+    "express": "^4.16.1",
+    "websocket": "^1.0.18"
+  }
+}
